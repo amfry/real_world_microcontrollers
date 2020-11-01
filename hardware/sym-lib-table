@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ADE_logger)(type Legacy)(uri ${KIPRJMOD}/ADE_logger.lib)(options "")(descr ""))
+  (lib (name low_current_data_logger-rescue)(type Legacy)(uri ${KIPRJMOD}/low_current_data_logger-rescue.lib)(options "")(descr ""))
+)
