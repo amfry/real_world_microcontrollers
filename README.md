@@ -1,6 +1,5 @@
-# Real Wold MicroControllers - Low Power Current Logger
-#### Abby Fry
-###### This project was completed as part of Microcontrollers for the Real World at Olin College of Engineering during Fall 2020
+# Real Wold Microcontrollers - Low Power Current Logger
+###### This project was completed as part of Microcontrollers for the Real World at Olin College of Engineering, Fall 2020
 ## Description
 ### Requirments
 ## Design
