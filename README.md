@@ -12,6 +12,7 @@ The low power currentl logger was designed to met the following technical requir
 - write current values and necessary time stamps to an SD card.
 ## Design
 ### Schematic
+![Schematic](https://github.com/amfry/real_world_microcontrollers/blob/main/images/Schem.PNG)
 ### Board
 ### BOM & Cost
 ![BOM](https://github.com/amfry/real_world_microcontrollers/blob/main/images/BOM.JPG)
