@@ -14,6 +14,7 @@ The low power currentl logger was designed to met the following technical requir
 ### Schematic
 ### Board
 ### BOM & Cost
+![BOM](https://github.com/amfry/real_world_microcontrollers/blob/main/images/BOM.JPG)
 ### Next Steps
 To improve the utility of this board for it's inteded purpose further development is need.
 - Display
