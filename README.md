@@ -6,10 +6,10 @@ This board was designed to assist the [ADE Air Partners](https://www.airpartners
 The purifier has 4 modes have distinct current requirements, making a current logger a simple way to gain valuable data about purifier usage.  The logger was designed to be battery operated to allow data to be logged discretely.  making it low power means that data can be collected over an extended period of time.
 ### Requirments
 The low power currentl logger was designed to met the following technical requirments:
-- run off of battery power for a minimum of 4 weeks.
-- sense current running through a wall power cable.
-- keep accurate time to sync logged data with other data streams.
-- write current values and necessary time stamps to an SD card.
+- Run off of battery power for a minimum of 4 weeks.
+- Sense current running through a wall power cable.
+- Keep accurate time to sync logged data with other data streams.
+- Write current values and necessary time stamps to an SD card.
 ## Design
 ### Schematic
 The board has 7 major components:
