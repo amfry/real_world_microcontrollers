@@ -23,15 +23,14 @@ The board has 7 major components:
 
 The schematic and board designed were completed in KiCAD and can be see [here](https://github.com/amfry/real_world_microcontrollers/blob/main/hardware/low_current_data_logger.zip).  
 ### Board
-Below is the populated final version of the low power current logger. The board was manufactured by [JLCPCB](https://jlcpcb.com/) and was assembled with hand soldereding. 
-![PCB](https://github.com/amfry/real_world_microcontrollers/blob/main/images/board_rotated.jpg)  
-The board is 2-layer with all THT componenets. The board layout can be seen below.  
+Below is the populated final version of the low power current logger. The board was manufactured by [JLCPCB](https://jlcpcb.com/) and was assembled with hand soldereding.  The board is 2-layer with all THT componenets. The board layout can be seen below.  
 ![PCB](https://github.com/amfry/real_world_microcontrollers/blob/main/images/layout.PNG)
+![PCB](https://github.com/amfry/real_world_microcontrollers/blob/main/images/board_rotated.jpg)  
 
 ### BOM & Cost
 ![BOM](https://github.com/amfry/real_world_microcontrollers/blob/main/images/BOM.JPG)
 ### Next Steps
 To improve the utility of this board for it's inteded purpose further development is need.
-- User interface: 
-- Low power improvments:
+- User interface: The board has a display and push button user interface that are not currently being used. In doing software development, the large size of the display library made the display difficult to integrate with other core functionality. More research and development into how to implemnt display functionality with low memory avaliable is needed.
+- Low power improvments: While the board could run for X many amount of time with the current battery pack and software, extending the battery life of the board would allow more holistic data to be collected on air purifer usage. Implemnting "sleep mode" in between data samples and expanding the battery pack should be complete to imporve the board.
 ###### Special thanks to Stan Reifiel for his guidance throughout this project.
