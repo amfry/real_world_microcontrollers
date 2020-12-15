@@ -3,8 +3,8 @@
 ## Description
 This board was designed to assist the [ADE Air Partners](https://www.airpartners.org/) team in evaluating how [HEPA air purifiers](https://austinair.com/shop/healthmate/) are being used by residents in East Boston. The purifiers provided the most health benefits when used 24/7 at the highest setting.  However, when deployed, purifiers are often turned to a lower setting or unplugged by users. To evalute user behavior, the board will log current continously over an extended duration.
 
-The purifier has 4 modes have distinct current requirements, making a current logger a simple way to gain valuable data about purifier usage.  The logger was designed to be battery operated to allow data to be logged discretely.  making it low power means that data can be collected over an extended period of time. During devlopment of the board, when there was no immediate access to an air purifer, the board was tested on a standard hair dryer. The data from a test with the hair dryer can be seen below.
-![Plot](https://github.com/amfry/real_world_microcontrollers/blob/main/images/Current%20(Amps)%20vs.%20Time.png)
+The purifier has 4 modes have distinct current requirements, making a current logger a simple way to gain valuable data about purifier usage.  The logger was designed to be battery operated to allow data to be logged discretely.  making it low power means that data can be collected over an extended period of time. During devlopment of the board, when there was no immediate access to an air purifer, the board was tested on a standard hair dryer. The data from a test with the hair dryer can be seen below.  
+![Plot](https://github.com/amfry/real_world_microcontrollers/blob/main/images/Current%20(Amps)%20vs.%20Time.png)  
 ### Requirments
 The low power currentl logger was designed to met the following technical requirments:
 - Run off of battery power for a minimum of 4 weeks.
