@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name low_current_data_logger)(type KiCad)(uri ${KIPRJMOD}/low_current_data_logger.pretty)(options "")(descr ""))
-)
