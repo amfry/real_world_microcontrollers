@@ -29,6 +29,7 @@ Below is the populated final version of the low power current logger. The board 
 ![PCB](https://github.com/amfry/real_world_microcontrollers/blob/main/images/board_rotated.jpg)  
 
 ### BOM & Cost
+A motivation for designing this board for the [ADE Air Partners](https://www.airpartners.org/) team was to create a lower cost alternative to the current products used for current data logging. Products that can do that such as a [HOBO data logger](https://www.onsetcomp.com/products/data-loggers/ux120-006m/), but these products are bulky, expensive (> $200 each), and generally designed for industrial applications. This means that the baord developed could save the team over a 100 dollars for each logging unit. Additional cost reduction could be implemnted such as transition to using just the processor chip in the arduino mini pro and manufacturing the board in bulk.
 ![BOM](https://github.com/amfry/real_world_microcontrollers/blob/main/images/BOM.JPG)
 ### Next Steps
 To improve the utility of this board for it's inteded purpose further development is need.
