@@ -24,9 +24,9 @@ The board has 7 major components:
 The schematic and board designed were completed in KiCAD and can be see [here](https://github.com/amfry/real_world_microcontrollers/blob/main/hardware/low_current_data_logger.zip).  
 ### Board
 Below is the populated final version of the low power current logger. The board was manufactured by [JLCPCB](https://jlcpcb.com/) and was assembled with hand soldereding. 
-![PCB](https://github.com/amfry/real_world_microcontrollers/blob/main/images/board_rotated.jpg)
-The board is 2-layer with all THT componenets. The board layout can be seen below.
-![PCB](https://github.com/amfry/real_world_microcontrollers/blob/main/images/board_rotated.jpg)
+![PCB](https://github.com/amfry/real_world_microcontrollers/blob/main/images/board_rotated.jpg)  
+The board is 2-layer with all THT componenets. The board layout can be seen below.  
+![PCB](https://github.com/amfry/real_world_microcontrollers/blob/main/images/layout.PNG)
 
 ### BOM & Cost
 ![BOM](https://github.com/amfry/real_world_microcontrollers/blob/main/images/BOM.JPG)
