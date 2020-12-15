@@ -1,3 +1,6 @@
+/*This script was developed by Abby Fry, Fall 2020 as part of Real World Microcontrollers @ Olin College of Engineering *\
+
+
 #include "EmonLib.h"
 #include <SPI.h>
 #include <SD.h>
@@ -69,6 +72,7 @@ delay(sample_rate);
 
 // SD Functions
   void write_sd_val(float val){
+  //Write float values (like current) to SD card
   dataFile.close();
   dataFile = SD.open("test.txt", FILE_WRITE);
   if (dataFile) {
@@ -78,6 +82,7 @@ delay(sample_rate);
  }
 
 void write_sd_datetime(int val){
+// Write time & date values as int
   dataFile.close();
   dataFile = SD.open("test.txt", FILE_WRITE);
   if (dataFile) {
@@ -87,6 +92,7 @@ void write_sd_datetime(int val){
 }
 
 void write_sd_string(String val){
+// Write strings to SD card to create .csv formatting
   dataFile.close();
   dataFile = SD.open("test.txt", FILE_WRITE);
   if (dataFile) {
@@ -97,6 +103,7 @@ void write_sd_string(String val){
 }
 
 void sd_newline(void){
+// Write a newline to SD file to keep .csv format
   dataFile.close();
   dataFile = SD.open("test.txt", FILE_WRITE);
   if (dataFile) {
@@ -108,6 +115,7 @@ void sd_newline(void){
 
 // RTC Functions
 bool getTime(const char *str)
+// retrieve time from compiler
 {
   int Hour, Min, Sec;
   if (sscanf(str, "%d:%d:%d", &Hour, &Min, &Sec) != 3) return false;
@@ -118,6 +126,7 @@ bool getTime(const char *str)
 }
 
 bool getDate(const char *str)
+//retreive date from compiler
 {
   char Month[12];
   int Day, Year;
@@ -135,6 +144,7 @@ bool getDate(const char *str)
 }
 
 void write2digits(int number){
+// Write date/time values to SD card 
   if (number >= 0 && number < 10) {
     write_sd_string("0");
   }
@@ -159,7 +169,7 @@ void write_time(void){
 
 //Battery Functions
   float read_raw_battery(void){
-  // Due to voltage divider, the raw_battery max value is 2.5
+  // Check on battery voltage
   float raw_v_val = analogRead(raw_battery_pin) * (3.6/1024);
   float scaled_v_val = (raw_v_val /(3.6/2)) * 3.3;
   return scaled_v_val;
