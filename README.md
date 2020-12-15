@@ -13,7 +13,7 @@ The low power currentl logger was designed to met the following technical requir
 - Write current values and necessary time stamps to an SD card.
 ## Design
 ### Schematic
-The board has 7 major components:
+The board layout has 7 major components:
 - [Processor](https://www.sparkfun.com/products/11114): The arduino mini pro 3.3v was chosen because it was compatible with the power requirments of the other module that were being selected. It's low clock speed makes it a good canidate for this low power project and the DIY intrnet community has used in extensively in data logging projects.
   
 - [RTC](https://www.adafruit.com/product/3013): The DS3231 is a precise RTC with it's own battery and a temperature sensor to to compensate for crsyal frequency changes as the temperature changes. It communicates with the processor over I2C. In this application, the time is set at compile time using the arduino IDE's compiler.  
