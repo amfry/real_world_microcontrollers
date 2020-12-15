@@ -7,10 +7,12 @@ The purifier has 4 modes have distinct current requirements, making a current lo
 ![Plot](https://github.com/amfry/real_world_microcontrollers/blob/main/images/Current%20(Amps)%20vs.%20Time.png)  
 ### Requirments
 The low power currentl logger was designed to met the following technical requirments:
-- Run off of battery power for a minimum of 4 weeks.
 - Sense current running through a wall power cable.
 - Keep accurate time to sync logged data with other data streams.
 - Write current values and necessary time stamps to an SD card.
+- Run off of battery power for a minimum of 4 weeks.
+
+The battery pack on the baord supplies 5200 mA hours and after measuring the current used while the board is logging, the board should last X days and weeks assuming a nominal voltage of X.
 ## Design
 ### Schematic
 The board layout has 7 major components:
