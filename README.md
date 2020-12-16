@@ -12,7 +12,7 @@ The low power currentl logger was designed to met the following technical requir
 - Write current values and necessary time stamps to an SD card.
 - Run off of battery power for a minimum of 4 weeks.
 
-The battery pack on the baord supplies 5200 mA hours and after measuring the current used while the board is logging, the board should last X days and weeks assuming a nominal voltage of X.
+The battery pack on the baord supplies 5200 mA hours and after measuring the current used while the board is logging, the board should last 57 days and weeks assuming a nominal current of 3.78 mA.
 ## Design
 ### Schematic
 The board layout has 7 major components:
@@ -41,5 +41,5 @@ A motivation for designing this board for the [ADE Air Partners](https://www.air
 ### Next Steps
 To improve the utility of this board for it's inteded purpose further development is need.
 - User interface: The board has a display and push button user interface that are not currently being used. In doing software development, the large size of the display library made the display difficult to integrate with other core functionality. More research and development into how to implemnt display functionality with low memory avaliable is needed.
-- Low power improvments: While the board could run for X many amount of time with the current battery pack and software, extending the battery life of the board would allow more holistic data to be collected on air purifer usage. Implemnting "sleep mode" in between data samples and expanding the battery pack should be complete to imporve the board.
+- Low power improvments: While the board could run for ~57 days many amount of time with the current battery pack and software, extending the battery life of the board would allow more holistic data to be collected on air purifer usage. Implemnting "sleep mode" in between data samples and expanding the battery pack should be complete to imporve the board.
 ###### Special thanks to Stan Reifiel for his guidance throughout this project.
