@@ -12,7 +12,7 @@ The low power currentl logger was designed to met the following technical requir
 - Write current values and necessary time stamps to an SD card.
 - Run off of battery power for a minimum of 4 weeks.
 
-The battery pack on the baord supplies 5200 mA hours and after measuring the current used while the board is logging, the board should last 57 days and weeks assuming a nominal current of 3.78 mA when the sample rate every 5 minutes.
+The battery pack on the board supplies 5200 mA hours and after measuring the current used while the board is logging, the board should last 57 days and weeks assuming a nominal current of 3.78 mA when the sample rate every 5 minutes.
 ## Design
 ### Schematic
 The board layout has 7 major components:
